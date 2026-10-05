@@ -10,6 +10,11 @@
 
 **引擎**：**AtomicBot b10269-1.6.0**（与 Ornith/KAT 同款参数族）
 
+
+![qwen3.6-35b-8g-tuning 实测图表](docs/35b-depth-curve.png)
+
+**35B 级 MoE 的深度曲线**：Qwen3.6 与 Ornith-1.5 同参对比，从 0 到 96K 上下文的预填充与生成吞吐。原始数据见 `data/data_35b`。
+
 ## 生产配置（start.bat 即仓库内同名文件，零漂移）
 
 ```bat
